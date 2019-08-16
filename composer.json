@@ -1,0 +1,20 @@
+{
+    "name": "rafael.paulino/traits",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rafael Paulino",
+            "email": "rafaclasses@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2.9"
+    },
+    "autoload": {
+        "psr-4":{
+            "Traits\\":"src/"
+        }
+    }
+}
